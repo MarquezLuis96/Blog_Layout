@@ -1,0 +1,146 @@
+:root {
+    --primary-color: #47CFAC;
+}
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../../assets/font/Flaticon.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: var(--primary-color);
+}
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-items: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+main .home-main-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/img/Cover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-main-section .hero {
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.home-main-section .hero__container {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.home-main-section .hero .hero__container h2 {
+    color: white;
+    font-size: 3.5rem;
+    font-family: "Flaticon", sans-serif;
+}
+
+.home-main-section .hero .hero__container button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+    font-family: "Flaticon", sans-serif;
+}
+
+.home-main-section .hero .hero__container button:hover {
+    box-shadow: 0px 0px 15px 0px white;
+    padding: 9px;
+    border: 1px solid white;
+}
