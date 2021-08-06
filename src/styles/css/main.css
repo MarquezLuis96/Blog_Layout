@@ -58,6 +58,8 @@ header .header-icons-container .icons {
 }
 
 header .icons span {
+    width: 50px;
+    height: 50px;
     color: white;
 }
 
@@ -88,7 +90,7 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 
-main section {
+main .home-main-section {
     width: 100%;
     height: 80vh;
     display: flex;
@@ -100,7 +102,7 @@ main section {
     background-size: cover;
 }
 
-.hero {
+.home-main-section .hero {
     width: 80%;
     height: 75%;
     display: flex;
@@ -109,7 +111,7 @@ main section {
     background-color: rgba(255, 255, 255, 0.09);
 }
 
-.hero__container {
+.home-main-section .hero__container {
     width: 90%;
     height: 80%;
     display: flex;
@@ -120,13 +122,13 @@ main section {
     border: 1px solid white;
 }
 
-.hero .hero__container h2 {
+.home-main-section .hero .hero__container h2 {
     color: white;
     font-size: 3.5rem;
     font-family: "Flaticon", sans-serif;
 }
 
-.hero .hero__container button {
+.home-main-section .hero .hero__container button {
     background-color: var(--primary-color);
     border: none;
     border-radius: 20px;
@@ -134,9 +136,10 @@ main section {
     padding: 10px;
     margin-top: 50px;
     color: white;
+    font-family: "Flaticon", sans-serif;
 }
 
-.hero .hero__container button:hover {
+.home-main-section .hero .hero__container button:hover {
     box-shadow: 0px 0px 15px 0px white;
     padding: 9px;
     border: 1px solid white;
