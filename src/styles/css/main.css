@@ -290,3 +290,47 @@ footer p {
     font-size: 3.5rem;
     margin: 0px 0px 15px;
 }
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #E6E9ED;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+}
+
+.contact-main-container .contact-left, .contact-main-container .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact-main-container img {
+    width: 100px;
+}
+
+.contact-main-container div {
+    margin: 0 auto;
+}
+
+.contact-main-container div a {
+    margin-left: 15px;
+    font-size: 2rem;
+}
+
+.contact-main-container div p {
+    margin: 25px 5px 5px 15px;
+}
+
