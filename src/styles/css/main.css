@@ -177,7 +177,6 @@ main .home-main-section {
 
 .blogs-news-img-container img {
     width: 85%;
-    background-color: yellow;
 }
 
 .blogs-news-info-container {
@@ -191,7 +190,6 @@ main .home-main-section {
 hr {
     height: 1px;
     width: 100%;
-    background-color: blue;
     margin: 20px auto 15px;
 }
 
